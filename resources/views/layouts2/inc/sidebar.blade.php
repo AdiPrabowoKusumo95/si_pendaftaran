@@ -16,12 +16,12 @@
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="#">
+            <a href="{{ route('administrator.pengguna.index') }}">
               <i class="bi bi-circle"></i><span>Pengguna</span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="{{ route('level.index') }}">
               <i class="bi bi-circle"></i><span>Level</span>
             </a>
           </li>
